@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;1,100;1,700&family=Khand&family=Nanum+Gothic&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario ingreso</title>
+    <style>
+        .body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .form-register {
+            width:400px;
+            background: #24303c;
+            padding: 45px;
+            margin: auto;
+            margin-top: 60px;
+            color: white;
+            font-family: Khand;
+            border-radius: 4px;
+            box-shadow: 7px 13px 37px #000;
+
+        }
+        .form-register h4 {
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+        .controls {
+            width: 100%;
+            background: #24303c;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 16px;
+            border: 1px solid #1f53c5;
+            font-family: Khand;
+            font-size: 18px;
+        }
+        .form-register .boton {
+            width: 102%;
+            background: #1f53c5;
+            border: none;
+            padding: 12px;
+            color: white;
+            margin: 10px;
+            font-size: 18px;
+            font-family: Khand;
+            cursor: pointer;
+        }
+        .boton:hover {
+            background: rgb(65, 131, 194);
+        }
+
+    </style>
+</head>
+<body style="background: hsl(212, 37%, 55%);">
+    <section class="form-register">
+        <h4>Formulario ingreso del vehiculo</h4>
+        <input class="controls" type="text" name="Placa" id="Placa " placeholder="Ingrese placa del vehiculo">
+        <input class="controls" type="text" name="nombre" id="nombre " placeholder="Ingrese nombre del propietario">
+        <input class="controls" type="text" name="vehiculo" id="vehiculo " placeholder="Ingrese tipo de vehiculo">
+        <input class="boton" type="submit" value="Ingresar">
+        <a href="index.html">
+            <input class="boton" type="submit" value="Atras">
+        </a>
+       
+    </section>
+</body>
+</html>
